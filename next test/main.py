@@ -24,4 +24,3 @@ for el in range(len(category_names)):
 df = pd.DataFrame(data=result_list)
 df.to_csv(FILE_NAME)
 
-print(df.shape)
